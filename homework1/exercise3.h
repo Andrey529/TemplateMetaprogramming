@@ -28,4 +28,7 @@ struct remove_pointers<T* const, 0> {
     using type = T*;
 };
 
+template<typename T, std::size_t N>
+using remove_pointers_t = typename remove_pointers<T, N>::type;
+
 #endif //TEMPLATEMETAPROGRAMMING_EXERCISE3_H
