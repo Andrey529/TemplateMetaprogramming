@@ -3,4 +3,4 @@ project(homework1)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(homework1_run main.cpp exercise1.h)
+add_executable(homework1_run main.cpp exercise1.h exercise2.h exercise3.h)
